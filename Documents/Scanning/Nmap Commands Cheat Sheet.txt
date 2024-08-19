@@ -1,0 +1,21 @@
+Nmap Commands Cheat Sheet
+
+Nmap *.*.*.* - standard port scan of a given IP address
+
+-sL - List all Hosts on a network
+-A - Enables OS Detection 
+-v - Verbose Output
+-vv - Very Verbose Output
+-sn/-sP - Disables port scanning used for host discovery
+--traceroute - Discovers network path to a host 
+-p- - Scans app ports on a target
+-p<PORT> - Scans specified port or range 
+-sC - Scans for commonly used ports 
+-sV - Scans for open ports and version information
+--open - Scans for open ports on a network
+--top-ports <value> - scans the top <value> number of ports
+-sT - TCP connect Scan
+-sU - UDP Port Scan 
+-T<0-5> Scan with a specific time template 0 being slowest and 5 the fastest
+
+
